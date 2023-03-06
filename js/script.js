@@ -12,6 +12,6 @@ $(document).ready(function(){
   });
   $('form').submit(function(event) {
     event.preventDefault();
-    window.location = '/home.html'
+    window.location = '/todo-app/home.html'
   })
 });
