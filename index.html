@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="utf-8">
@@ -11,136 +11,71 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <!-- <div>
-        <img src="images/tasks.png" alt="">
-    </div> -->
-    <div class="container">
-        <div class="row d-md-flex justify-content-md-center pt-5">
-            <div class="col-md-6 col-xl-6  col-sm-12 col-12">
-                <div class="list-container h-100">
-                    <div class="text-center">
-                        <div class="h6">Greetings</div>
-                        <div class="h4">TO - DO LIST</div>
+<body class="h-100">
+    <div class="h-100">
+        <div class="d-flex align-items-center justify-content-center h-100 px-3">
+            <div class="container-with-shadow login-form">
+                <form id="loginForm">
+                <div class="h3 text-center py-2">Login</div>
 
-                        <ul class="list-group list-group-flush">
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center custom-control custom-checkbox">
-                                <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Subheading</div>
-                                    Cras justo odio
-                                </div>
-                                <label class="customcheck">
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center custom-control custom-checkbox">
-                                <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Subheading</div>
-                                    Cras justo odio
-                                </div>
-                                <label class="customcheck">
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center custom-control custom-checkbox">
-                                <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Subheading</div>
-                                    Cras justo odio
-                                </div>
-                                <label class="customcheck">
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center custom-control custom-checkbox">
-                                <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Subheading</div>
-                                    Cras justo odio
-                                </div>
-                                <label class="customcheck">
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center custom-control custom-checkbox">
-                                <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Subheading</div>
-                                    Cras justo odio
-                                </div>
-                                <label class="customcheck">
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center custom-control custom-checkbox">
-                                <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Subheading</div>
-                                    Cras justo odio
-                                </div>
-                                <label class="customcheck">
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                        </ul>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email Address">
                     </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-6 col-sm-12 col-12">
-                <div class="list-container h-100">
-                    <div class="text-center">
-                        <div class="h6">Greetings</div>
-                        <div class="h4">COMPLETED - DO LIST</div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" placeholder="Password">
                     </div>
+                    <div class="text-center mb-3">
+                        <button type="submit" class="btn btn-primary custom-btn">Submit</button>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-center">Forgot password?</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-center action-btn" id="createAccountBtn"  data-form="signUpForm">Create account</p>
+                    </div>
+                </form> 
+                <form id="signUpForm" class="d-none">
+                <div class="h3 text-center py-2">Signup</div>
 
-                    <ul class="list-group list-group-flush">
-                        <li
-                            class="list-group-item d-flex justify-content-between align-items-center custom-control custom-checkbox">
-                            <div class="ms-2 me-auto">
-                                <div class="fw-bold">Subheading</div>
-                                Cras justo odio
-                            </div>
-                            <label class="customcheck">
-                                <input type="checkbox" checked>
-                                <span class="checkmark"></span>
-                            </label>
-                        </li>
-                        <li
-                            class="list-group-item d-flex justify-content-between align-items-center custom-control custom-checkbox">
-                            <div class="ms-2 me-auto">
-                                <div class="fw-bold">Subheading</div>
-                                Cras justo odio
-                            </div>
-                            <label class="customcheck">
-                                <input type="checkbox" checked>
-                                <span class="checkmark"></span>
-                            </label>
-                        </li>
-                        <li
-                            class="list-group-item d-flex justify-content-between align-items-center custom-control custom-checkbox">
-                            <div class="ms-2 me-auto">
-                                <div class="fw-bold">Subheading</div>
-                                Cras justo odio
-                            </div>
-                            <label class="customcheck">
-                                <input type="checkbox" checked>
-                                <span class="checkmark"></span>
-                            </label>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="text-center mb-3">
+                        <button type="submit" class="btn btn-primary custom-btn">Submit</button>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-center action-btn" id="backToLoginBtn" data-form="loginForm">Login</p>
+                    </div>
+                </form>
             </div>
-
         </div>
     </div>
+  
+  <!-- Modal -->
+  <div class="modal fade text-secondary" id="introModal" tabindex="-1" aria-labelledby="introModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="introModalLabel">Welcome to To Do List App</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            This front-end is designed to manage a todo list, and currently includes HTML/CSS and some Javascript. It will eventually be transformed into a fully functional ToDoApp, utilizing <strong>ReactJs</strong> on the front-end and <strong>NestJs</strong> on the back-end.    </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/script.js"></script>
 
 </html>
